@@ -13,6 +13,8 @@ let userEmail;
 
 
 /* symbol */
+
+
 const id = Symbol('123') //function
 const anotherId = Symbol('123')
 
@@ -42,3 +44,27 @@ console.log(typeof scoreValue);
 console.log(typeof myFunction)
 console.log(typeof heros)
 console.log(typeof Symbol)
+
+
+/****************************************************************/
+
+// Stack(Primitive) = copy , Heap(Non-Primitive) = referance
+
+let myYoutubeName = "AdityaPandey.com"
+
+let anotherName = myYoutubeName
+anotherName = "ChaiAurCode"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne = {
+    email:  "User@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "Adityapandey@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
