@@ -15,8 +15,3 @@ console.log(instructor)
 // }
 
 
-[
-    {},
-    {},
-    {},
-]
