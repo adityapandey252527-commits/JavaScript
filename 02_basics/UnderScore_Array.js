@@ -17,7 +17,7 @@ const allnewHeros = [...marvelHeros, ...dcHeros]
 // const realAnotherArr =anotherArr.flat(Infinity)
 // console.log(realAnotherArr);
 
-console.log(Array.isArray("Hitesh"))
+console.log(Array.isArray("Hitesh","Aditya","Pankaj"))
 console.log(Array.from("Hitesh"))
 console.log(Array.from({name: "Aditya"})) //interseting
 
