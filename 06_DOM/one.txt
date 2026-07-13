@@ -1,0 +1,169 @@
+document.getElementById('title')
+<h1 id=​"title" class=​"test heading" style=​"background:​ green;​ padding:​ 15px;​ border-radius:​ 15px;​">​DOM Learning On chai and code​</h1>​
+document.getElementById('title').class
+undefined
+document.getElementById('title').className
+'test'
+document.getElementById('title').getAttribute('class')
+'test'
+document.getElementById('title').setAttribute('class','test heading')
+undefined
+document.getElementById('title')
+<h1 id=​"title" class=​"test heading" style=​"background:​ green;​ padding:​ 15px;​ border-radius:​ 15px;​">​DOM Learning On chai and code​</h1>​
+const title = document.getElementById('title')
+undefined
+title
+<h1 id=​"title" class=​"test heading" style=​"background:​ green;​ padding:​ 15px;​ border-radius:​ 15px;​">​DOM Learning On chai and code​</h1>​
+title.style
+CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}
+title.style.background = 'green'
+'green'
+title.style.padding = "15px"
+'15px'
+title.style.borderRadius = "15px"
+'15px'
+
+
+title.innerText
+'DOM Learning On chai and code'
+title.textContent
+'DOM Learning On chai and code test text'
+title.inner
+undefined
+title.innerHTML
+'DOM Learning On chai and code <span style="display: none;">test text</span>'
+
+document.querySelector('h2')
+<h2>​Lorem ipsum dolor sit amet consectetur.​</h2>​
+document.querySelector(#title)
+VM4122:1 Uncaught SyntaxError: Unexpected identifier '#title'
+[NEW] Explain Console errors by using Copilot in Edge: click  to explain an error. Learn moreDon't show again
+document.querySelector('#title')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+document.querySelector('.heading')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+
+document.querySelector('p:first-child')
+null
+document.querySelector('ul')
+<ul>​…​</ul>​
+const myUl = document.querySelector('ul')
+undefined
+myUl.querySelector('li')
+<li style=​"background-color:​ green;​ padding:​ 10px;​">​…​</li>​::marker​"one"</li>​
+const turngreen = myu.querySelector('ul')
+VM4834:1 Uncaught ReferenceError: myu is not defined
+    at <anonymous>:1:19
+(anonymous) @ VM4834:1
+[NEW] Explain Console errors by using Copilot in Edge: click  to explain an error. Learn moreDon't show again
+Const turnGreen = myUl.que
+VM4917:1 Uncaught SyntaxError: Unexpected identifier 'turnGreen'
+const myGreen = myUl.querySelector('li')
+undefined
+turnGreen.style.backgroungColor = "green"
+VM5175:1 Uncaught ReferenceError: turnGreen is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM5175:1
+const myGreen = myUl.querySelector('li')
+undefined
+turnGreen.style.backgroungColor = "green"
+VM5261:1 Uncaught ReferenceError: turnGreen is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM5261:1
+myGreen.style.backgroundColor = "green"
+'green'
+myGreen.style.padding="10px"
+'10px'
+myGreen.innerText
+'one'
+myGreen.innerText = "Five"
+'Five'
+
+templist.style.color = 'green'
+VM6257:1 Uncaught ReferenceError: templist is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM6257:1
+[NEW] Explain Console errors by using Copilot in Edge: click  to explain an error. Learn moreDon't show again
+templist.style.color = 'green'
+VM6276:1 Uncaught ReferenceError: templist is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM6276:1
+const templilist = docun
+VM6364:1 Uncaught ReferenceError: docun is not defined
+    at <anonymous>:1:20
+(anonymous) @ VM6364:1
+const tempLiList = document.querySelectorAll('li')
+undefined
+templilist
+VM6543:1 Uncaught ReferenceError: templilist is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM6543:1
+tempLiList
+NodeList(3) [li, li, li]
+templilist[0].style.color = 'green'
+VM6637:1 Uncaught ReferenceError: templilist is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM6637:1
+templilist[0].style.color = 'green'
+VM6749:1 Uncaught ReferenceError: templilist is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM6749:1
+tempLiList[0].style.color = 'green'
+'green'
+tempLiList
+NodeList(3) [li, li, li]
+const myH1 = document.querySelectorAll('h1')
+undefined
+myH1
+NodeList [h1#title.heading]
+myH1.style.color = 'green'
+VM7121:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:18
+(anonymous) @ VM7121:1
+myH1[0].style.color = 'green'
+'green'
+tempLiList
+NodeList(3) [li, li, li]
+tempLiList.forEach(function(){})
+undefined
+tempLiList.forEach(function(){})
+undefined
+tempLiList.forEach(function(l){})
+undefined
+tempLiList.forEach(function(l){
+    l.style.backgroundColor = 'green'
+})
+undefined
+
+
+document.getElementsByClassName('list-item')
+HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]0: li.list-item1: li.list-item2: li.list-item3: li.list-itemlength: 4[[Prototype]]: HTMLCollectionitem: ƒ item()length: (...)namedItem: ƒ namedItem()constructor: ƒ HTMLCollection()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "HTMLCollection"get length: ƒ length()[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+const tempClassList = document.getElementsByClassName('list-item')
+undefined
+tempClassList
+HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+tempClassList.forEach(function (li){
+    console.log(li)
+})
+VM8329:1 Uncaught TypeError: tempClassList.forEach is not a function
+    at <anonymous>:1:15
+(anonymous) @ VM8329:1
+[NEW] Explain Console errors by using Copilot in Edge: click  to explain an error. Learn moreDon't show again
+tempClassList
+HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+Array.from(tempClassList)
+(4) [li.list-item, li.list-item, li.list-item, li.list-item]0: li.list-item1: li.list-item2: li.list-item3: li.list-itemlength: 4[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+const myConvertedArray = Array.from(tempClassList)
+undefined
+myConvertedArray
+(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+myConvertedArray.forEach(function (li){
+})
+undefined
+myConvertedArray.forEach(function (li){})
+undefined
+myConvertedArray.forEach(function(li) {
+    li.style.color = 'orange'
+})
+undefined
