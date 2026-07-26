@@ -20,3 +20,6 @@ Abstraction
 Encapsulation
 Inheritance
 Polymorphism
+
+# when we used new
+empty  object are created
