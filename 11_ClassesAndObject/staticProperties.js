@@ -14,12 +14,12 @@ class User{
 const hitesh = new User("hitesh")
 // console.log(hitesh.createId())
 
-class Teacher extends User{
-    constructor(username, email){
-        super(username)
-        this.email = email
+// class Teacher extends User{
+//     constructor(username, email){
+//         super(username)
+//         this.email = email
 
-    }
-}
-const iphone = new Teacher("iPhone", "iphone@gmailcom" )
-console.log(iphone.logMe());
+//     }
+// }
+// const iphone = new Teacher("iPhone", "iphone@gmailcom" )
+// console.log(iphone.createId());
