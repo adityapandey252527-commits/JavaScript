@@ -25,10 +25,11 @@ Array.prototype.heyAditya = function(){
 // heroPower.Aditya()
 // myHero.Aditya()
 // myHero.heyAditya()
-// heroPower.heyAditya()
 
 
- // Inheritance
+
+
+// Inheritance
 
 
 const User ={
