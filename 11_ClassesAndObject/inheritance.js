@@ -14,14 +14,15 @@ class Teacher extends User{
         this.password = password
     }
 
-    addcourse(){
+    addCourse(){
         console.log(`A new course was added by ${this.username}`);
     }
 }
 const chai = new Teacher("Chai", "chai@gmail.com", "123")
-chai.addcourse()
-// chai.logMe()
+chai.addCourse()
+chai.logMe()
 const tea = new User("Tea")
 tea.logMe()
 // console.log(chai === Teacher);
 console.log(chai instanceof User);
+console.log(chai instanceof Teacher);
